@@ -1,0 +1,26 @@
+
+body {
+  --active-color: #333333;
+  --secondary-color: #858585;
+  --divider-color: #F0F0F0;
+  --background-color: #FFFFFF;
+
+  --font-family: Arial, sans-serif;
+
+  --font-size-small: 12px;
+  --font-size-smaller: 13px;
+  --font-size-normal: 14px;
+  --font-size-larger: 16px;
+  --font-size-large: 18px;
+
+  --font-size-title: 27px;
+  --font-size-counter: 36px;
+  --font-size-large-counter: 66px;
+
+  --font-larger-bold: bold var(--font-size-larger) var(--font-family);
+  --font-small-normal: normal var(--font-size-small) var(--font-family);
+
+  font: var(--normal-font);
+  color: var(--active-color);
+  background: var(--background-color);
+}

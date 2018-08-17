@@ -1,0 +1,43 @@
+
+.header {
+  box-sizing: border-box;
+  height: 98px;
+  padding: 0 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  border-bottom: 1px solid var(--divider-color);
+}
+
+.header-logo {
+  width: 108px;
+  height: 27px;
+
+  flex: 0 0 auto;
+
+  background-image: url("../guide/assets/Яндекс\ Дом@1x.png");
+  background-image: image-set(
+      "../guide/assets/Яндекс\ Дом@1x.png" 1x,
+      "../guide/assets/Яндекс\ Дом@2x.png" 2x);
+}
+
+.header-menu {
+  display: flex;
+  flex: 1 0 auto;
+  margin-left: 50px;
+}
+
+.header-menu-item {
+  font: var(--font-larger-bold);
+  color: var(--secondary-color);
+
+  cursor: pointer;
+  margin-right: 25px;
+}
+
+.header-menu-item_active {
+  color: var(--active-color);
+}
