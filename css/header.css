@@ -18,6 +18,8 @@
 
   flex: 0 0 auto;
 
+  background: center center no-repeat;
+
   background-image: url("../guide/assets/Яндекс\ Дом@1x.png");
   background-image: image-set(
       "../guide/assets/Яндекс\ Дом@1x.png" 1x,

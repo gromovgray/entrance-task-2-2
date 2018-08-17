@@ -1,0 +1,72 @@
+
+.content {
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.content-section-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.content-section-top_left {
+  flex: 0 1 50%;
+  margin-right: 15px;
+}
+
+.content-section-top_right {
+  flex: 0 1 50%;
+  margin-left: 15px;
+}
+
+.content-section-title {
+  flex: 0 0 auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 20px;
+}
+
+.content-section-name {
+  flex: 1 0 auto;
+  font: var(--font-large-bold);
+}
+
+.content-section-pager {
+  width: 47px; /* 16 + 16 + 15 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-section-pager-button {
+  width: 16px;
+  height: 16px;
+
+  background: center center no-repeat;
+  cursor: pointer;
+
+  background-image: url("../guide/assets/Icons / Arrow Right / M Copy@1x.png");
+  background-image: image-set(
+      "../guide/assets/Icons / Arrow Right / M Copy@1x.png" 1x,
+      "../guide/assets/Icons / Arrow Right / M Copy@2x.png" 2x);
+}
+
+.content-section-pager-button_prev {
+}
+
+.content-section-pager-button_next {
+  transform: scaleX(-1);
+}
+
+.content-section-pager-button_active {
+}

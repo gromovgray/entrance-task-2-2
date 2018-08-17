@@ -1,0 +1,14 @@
+
+.hero {
+  flex: 1 1 auto;
+
+  border-radius: 30px;
+
+  background: center center no-repeat;
+  background-size: cover;
+
+  background-image: url("../guide/assets/bg@1x.png");
+  background-image: image-set(
+      "../guide/assets/bg@1x.png" 1x,
+      "../guide/assets/bg@2x.png" 2x);
+}
