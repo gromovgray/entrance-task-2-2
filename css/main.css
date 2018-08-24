@@ -5,6 +5,8 @@ body {
   --divider-color: #F0F0F0;
   --background-color: #FFFFFF;
   --secondary-background-color: #F7F7F7;
+  --active-background-color: #FFD93E;
+  --switch-text-color: #000000;
 
   --shadow-color: rgba(197, 186, 186, 0.5);
 
@@ -21,6 +23,7 @@ body {
   --font-size-large-counter: 66px;
 
   --font-small-normal: normal var(--font-size-small) var(--font-family);
+  --font-smaller-bold: bold var(--font-size-smaller) var(--font-family);
   --font-normal-normal: normal var(--font-size-normal) var(--font-family);
   --font-larger-bold: bold var(--font-size-larger) var(--font-family);
   --font-large-bold: bold var(--font-size-large) var(--font-family);
@@ -28,4 +31,6 @@ body {
   font: var(--font-normal-normal);
   color: var(--active-color);
   background: var(--background-color);
+
+  overflow: hidden;
 }

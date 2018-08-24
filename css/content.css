@@ -7,6 +7,11 @@
 .content-section-top {
   display: flex;
   flex-direction: row;
+
+  overflow: hidden;
+
+  padding-bottom: 5px;
+  margin-bottom: -5px;
 }
 
 .content-section {
@@ -25,6 +30,17 @@
   margin-left: 15px;
 }
 
+.content-section-top-content {
+  flex: 1 1 auto;
+
+  height: 330px;
+}
+
+.content-section-devices-content {
+  margin: 0 -40px;
+  padding-left: 40px;
+}
+
 .content-section-title {
   flex: 0 0 auto;
 
@@ -39,6 +55,11 @@
 .content-section-name {
   flex: 1 0 auto;
   font: var(--font-large-bold);
+}
+
+.content-section-name_devices {
+  flex-grow: 0;
+  margin-right: 13px;
 }
 
 .content-section-pager {
@@ -69,4 +90,31 @@
 }
 
 .content-section-pager-button_active {
+}
+
+.content-section-devicelist {
+  flex-grow: 1;
+}
+
+.content-section-switch {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 30px;
+
+  margin-right: 10px;
+  padding: 0 15px;
+
+  border-radius: 20px;
+
+  font: var(--font-smaller-bold);
+  color: var(--switch-text-color);
+  text-decoration: none;
+
+  background: var(--secondary-background-color);
+}
+
+.content-section-switch_active {
+  background: var(--active-background-color);
 }
